@@ -1,7 +1,6 @@
 import urllib.request
 
-class Image:
-	
+class Image(object):
 	def __init__(self, url, label):
 		self.url = url
 		self.label = label
